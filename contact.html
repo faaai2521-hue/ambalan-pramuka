@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak - SMKS Shalatiyah Bitin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-centered">
+        <img src="LOGO SMK.png" alt="Logo SMK" />
+        <h2>SMKS SHALATIYAH BITIN</h2>
+        <img src="LOGO PRAMUKA.jpeg" alt="Logo Pramuka" />
+      </div>
+      <h1 class="judul-halaman">Kontak Kami</h1>
+    </header>
+
+    <!-- 🔹 Navbar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="struktur.html" class="nav-link">Struktur</a></li>
+        <li><a href="galeri.html" class="nav-link">Galeri</a></li>
+        <li><a href="contact.html" class="nav-link active">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <!-- 🔸 Info Kontak -->
+    <section class="kontak">
+      <h3>Informasi Kontak</h3>
+      <p><strong>Alamat:</strong> Jl. Pendidikan No. 10, Bitin, Kalimantan Selatan</p>
+      <p><strong>Email:</strong> <a href="mailto:info@smksshalatiyahbitin.sch.id">info@smksshalatiyahbitin.sch.id</a></p>
+      <p><strong>Telepon:</strong> <a href="https://wa.me/6283159022275">083159022275</a></p>
+    </section>
+
+    <!-- 🔸 Formulir Kontak -->
+    <section class="form-kontak">
+      <h3>Kirim Pesan</h3>
+      <form id="contactForm">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
